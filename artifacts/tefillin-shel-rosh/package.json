@@ -1,0 +1,16 @@
+{
+  "name": "tefillin-shel-rosh",
+  "version": "0.8.0-alpha.1",
+  "private": true,
+  "description": "Standalone 3D educational research preview",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node qa.test.cjs && node qa-extra.cjs && node qa-mesh-clicks.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}
