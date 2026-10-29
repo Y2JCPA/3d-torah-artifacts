@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tefillin Shel Rosh — an interactive study</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tefillin Shel Rosh — an interactive study</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="../../shared/lessons.css"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head>
 <body>
-<header><a class="wordmark" href="../../" aria-label="Back to all Torah artifacts">All artifacts <span>•</span> <b>תפילין</b></a><span class="version">RESEARCH PREVIEW <b>v0.9.0-alpha.1</b></span></header>
+<header><a class="wordmark" href="../../" aria-label="Back to all Torah artifacts">All artifacts <span>•</span> <b>תפילין</b></a><span class="version">RESEARCH PREVIEW <b>v0.10.0-alpha.2</b></span></header>
 <main>
 <section class="viewer" aria-label="Interactive three dimensional model">
 <div class="heading"><p class="eyebrow">FORM / MATERIAL / MEANING</p><h1>Tefillin Shel Rosh</h1><p>One housing. Four passages. A closer look.</p></div>
+<div class="selection-key" aria-live="polite"><span aria-hidden="true"></span> <b id="selection-label">Choose a part to highlight</b><button id="clear-highlight" title="Restore the actual material colors" hidden>Clear highlight</button></div>
 <div id="stage"><canvas id="model" tabindex="0" aria-label="3D tefillin. Drag to orbit, scroll to zoom. Select components using the adjacent buttons."></canvas><div id="loading">Preparing the model…</div></div>
 <div class="view-tools" aria-label="Camera views"><button data-camera="hero" title="Three-quarter view">¾</button><button data-camera="front">Front</button><button data-camera="rear">Rear</button><button data-camera="top">Top</button><button data-zoom="in" aria-label="Zoom in">+</button><button data-zoom="out" aria-label="Zoom out">−</button><button id="reset" title="Reset all controls">↺ Reset</button></div>
 <div class="mode-controls" aria-label="Model display mode"><button data-mode="assembled" aria-pressed="true">Assembled</button><button data-mode="exploded" aria-pressed="false">Exploded</button><button data-mode="cutaway" aria-pressed="false">Cutaway</button></div>
@@ -12,11 +13,12 @@
 <div id="tooltip" role="status"></div><div id="mode-caption" aria-live="polite"></div>
 </section>
 <aside>
+<section id="law-overview" class="law-overview" aria-label="Received law and the model"></section>
 <div class="panel-top"><span class="eyebrow">EXPLORE THE DETAILS</span><span class="count">01 — 12</span></div>
 <nav id="parts" aria-label="Model components"></nav>
 <article id="detail" aria-live="polite"></article>
 <section class="arrangement"><label for="order">ORDER OF THE PASSAGES</label><select id="order"><option value="rashi">Rashi</option><option value="tam">Rabbeinu Tam</option></select><p class="perspective">Facing the wearer, left → right<br><span>Wearer’s right → wearer’s left</span></p><ol id="passages"></ol><p class="small">The model’s chamber positions remain fixed as you orbit.</p></section>
-<section class="knot-setting"><label for="knot">REAR KNOT STUDY</label><select id="knot"><option value="single">Single dalet · photo-based outer folds</option><option value="double">Square / double dalet · diagram-based weave</option></select><div class="knot-views"><button data-camera="knot">Outer face</button><button data-camera="knotReverse">Reverse</button><button data-camera="knotUnder">Underside</button></div><p class="small">Visible folds follow supplied references. Hidden routing is schematic, not a tying guide.</p></section>
+<section class="knot-setting"><label for="knot">REAR KNOT STUDY</label><select id="knot"><option value="single">Single dalet · folded study</option><option value="double">Square / double dalet · woven study</option></select><div class="knot-views"><button data-camera="knot">Outer face</button><button data-camera="knotReverse">Reverse</button><button data-camera="knotUnder">Underside</button></div><p class="small">Simplified outer folds. Hidden routing is schematic, not a tying guide.</p></section>
 <details class="about"><summary>About this model & sources</summary><p>An educational reconstruction, not a kosher certification or a guide to making tefillin. Dimensions and surface textures are illustrative. Cutaway and exploded views separate anatomy for study; the leather housing is joined construction.</p><p>Parchment marks are abstract texture, not sacred text. Knot routing is schematic and requires further craft review.</p><a href="https://www.mechon-mamre.org/i/en/2303.htm" target="_blank" rel="noopener">Rambam · Tefillin, chapter 3</a><a href="https://www.sefaria.org/Shulchan_Arukh%2C_Orach_Chayim.32?lang=bi&no_applink=1" target="_blank" rel="noopener">Shulchan Arukh · Orach Chayim 32</a><a href="https://www.sefaria.org/Shulchan_Arukh,_Orach_Chayim.34.1" target="_blank" rel="noopener">Shulchan Arukh · Orach Chayim 34:1</a></details>
 </aside>
 </main><script type="module" src="app.js"></script></body></html>

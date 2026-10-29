@@ -43,9 +43,9 @@ The hair–parchment–hair arrangement follows the Rema discussion. Inner hair 
 
 ## 0.8 review candidate
 
-The ribbon is generated from one centerline and a continuous sequence of thick cross-sections, then partitioned by topic for picking. This establishes geometric continuity, not the correctness of concealed knot interlacing. There are exactly two free ends. The complete strand is mirrored to place the narrow overlapping fold at the outer viewer's right, matching the privately viewed photograph. No personal reference pixels are shipped.
+The ribbon is generated from one centerline and a continuous sequence of thick cross-sections, then partitioned by topic for picking. This establishes geometric continuity, not the correctness of concealed knot interlacing. There are exactly two free ends. The complete strand is mirrored to place the narrow overlapping fold at the outer viewer's right. Reference images are not bundled.
 
-The single-dalet visible form has been compared with the photograph. In v0.8 the square/double-dalet study was withheld; v0.9 adds the supplied diagram-based outer form. Hidden reverse routing still requires additional reference and craft review. Surface collision-free topology of the concealed folds has not been certified. This is not a tying tutorial.
+In v0.8 the square/double-dalet study was withheld; v0.9 adds its simplified outer form alongside the single-dalet study. Hidden reverse routing still requires additional reference and craft review. Surface collision-free topology of the concealed folds has not been certified. This is not a tying tutorial.
 
 ## v0.9 square variant
 

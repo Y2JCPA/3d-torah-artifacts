@@ -1,6 +1,6 @@
 const {chromium}=require('playwright');
 const fs=require('node:fs');const assert=require('node:assert/strict');
-const baseURL=process.env.TEFILLIN_URL||'http://127.0.0.1:4173';
+const baseURL=process.env.TEFILLIN_URL||'http://127.0.0.1:4173/artifacts/tefillin-shel-rosh/';
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
  const report={date:new Date().toISOString(),browser:await browser.version(),tests:[],errors:[],limits:['Chromium software WebGL; no physical iOS/Safari/Firefox device testing','External source URLs checked for target and safe link attributes; browser network access to external sites not exercised','No qualified sofer review; knot routing and letter outlines remain illustrative']};
