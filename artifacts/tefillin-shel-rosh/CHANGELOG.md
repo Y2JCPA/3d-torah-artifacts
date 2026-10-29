@@ -1,3 +1,17 @@
+## v0.10.0-alpha.2 — selection and received-law lessons (review candidate)
+
+## Local review revision — alpha.2
+
+- Removed internal reference provenance from distributable text; retained public citations and schematic limitations.
+
+
+- Clear temporary teal selection on every mesh of the chosen component; small hair, stitch and groove features receive stronger illumination.
+- Restores original materials when another part is selected or the highlight is cleared. Initial/reset views retain natural leather colors.
+- Highlight follows individual parchments, clipping, compound knot rebuilds and view changes. Mobile lesson includes a direct return to the highlighted model.
+- Visible halacha leMoshe miSinai overview and source-linked classifications for all component lessons. Distinguishes Rambam’s ten-law total from his eight construction laws, black straps from black housing, and sinew from stitch count.
+- Animation timing tolerates low frame rates without stretching a brief transition into many seconds.
+- Shared lesson and selection modules are local assets of the collection. This study is not a craft certification.
+
 # Changelog
 
 Semantic versioning is used. Versions below 1.0 are research previews, not declarations of completeness or craft approval.
@@ -6,18 +20,18 @@ Semantic versioning is used. Versions below 1.0 are research previews, not decla
 
 Review candidate adding the requested square/double-dalet study.
 
-- Inspected the checksum-verified comparison diagram supplied by the user. Restored square/double-dalet selection with a compact four-panel outer weave and diagonal branches; retained the single-dalet photo-informed study.
+- Restored square/double-dalet selection with a compact four-panel outer form and diagonal branches; retained the single-dalet study. Hidden crossings remain schematic.
 - Both choices share one continuous ribbon from tail to tail through the head loop and maabarta. Hidden returns remain schematic, not verified tying instructions.
 - Added Outer face, Reverse and Underside inspection views. Close inspection can zoom inside the loop without the housing blocking the reverse view.
 - Expanded actual mesh click/tap and repeated switching coverage to both knot choices.
-- Connected a local checkout of the user’s existing collection repository. No deployment or push.
+- Connected a local checkout of the collection repository. No deployment or push.
 
 ## 0.8.0-alpha.1 — 2026-10-29
 
 Review candidate focused on straps and direct model interaction. Not a verified knot-tying reconstruction.
 
 - Rebuilt the straps as one ribbon with two free ends: tail, knot zone, head loop, transverse maabarta passage, second knot zone, other tail. Semantic mesh partitions share the same boundary vertices.
-- Inspected a checksum-verified private crop of the user's knot photograph. Replaced the loose single-dalet silhouette with a broad outer collar, lower folded return and narrow right-edge overlap. The unseen reverse route remains explicitly schematic.
+- Replaced the loose single-dalet silhouette with a broad outer collar, lower folded return and narrow right-edge overlap. The unseen reverse route remains explicitly schematic.
 - Withheld the inaccurate square/double-dalet study pending a reliable reference, and moved the mobile model below camera controls.
 - Added close-up camera targets for the knot and real open-ended strap tunnel.
 - Filtered picking by ancestor visibility and cut planes. Persistent drag tracking and multi-contact guards prevent orbit/pinch gestures from selecting parts.
@@ -43,8 +57,6 @@ Rebuilt the standalone educational model after review of v0.6.0 source and brows
 
 ## 0.6.0 — inherited reference
 
-Original source was supplied by the parent after a successful Library transfer. This executor’s own original ZIP download failed with proxy 403; the original ZIP was not altered.
 
 Source review found that assembled layout targeted x=0 for all chamber groups, causing them to overlap. Exploded/cutaway logic hid every chamber BoxGeometry. A browser reproduction of those statements confirmed both failures. The old scroll geometry had horizontal axes and a top-extraction diagram.
 
-The historical ZIP has SHA256 `39983037740c1be77f396a75b0879796a65a5e019e8e7f67b6aab4cdc69cc52f`, as reported by the parent that recovered it.

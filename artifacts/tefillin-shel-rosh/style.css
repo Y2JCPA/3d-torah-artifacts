@@ -7,3 +7,7 @@
 @media(max-width:400px){.view-tools{gap:3px}.view-tools button{padding:5px 8px}}
 
 .knot-views{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}.knot-views button{font-size:11px;padding:7px 10px}
+
+.selection-key{position:absolute;top:149px;left:40px;z-index:2;color:#a9e5d8;font-size:11px;pointer-events:none}.selection-key>span{display:inline-block;width:9px;height:9px;border-radius:50%;background:#31d6bd;margin-right:5px;box-shadow:0 0 9px #31d6bd66}.selection-key b{font-weight:400;color:#baf9eb}@media(max-width:1000px){.selection-key{left:25px}}@media(max-width:720px){.selection-key{top:122px;left:24px;font-size:10px}}
+
+#clear-highlight{pointer-events:auto;margin-left:10px;border:1px solid #aebbb540;border-radius:3px;background:#202729;color:#c6cfcb;padding:4px 7px;font-size:9px}#clear-highlight[hidden]{display:none}
