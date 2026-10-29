@@ -5,3 +5,5 @@
 .scroll-marker{position:absolute;transform:translate(-50%,-50%);width:22px;height:22px;border:1px solid #b8a37b70;border-radius:50%;background:#222a29e6;color:#e4d0a0;font:10px Arial;box-shadow:0 2px 8px #0003}.scroll-marker[hidden]{display:none}.scroll-marker:hover{background:#bdab85;color:#141c1a}
 
 @media(max-width:400px){.view-tools{gap:3px}.view-tools button{padding:5px 8px}}
+
+.knot-views{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}.knot-views button{font-size:11px;padding:7px 10px}

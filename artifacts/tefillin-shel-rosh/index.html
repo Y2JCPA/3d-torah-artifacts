@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tefillin Shel Rosh — an interactive study</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head>
 <body>
-<header><a class="wordmark" href="../../" aria-label="Back to all Torah artifacts">All artifacts <span>•</span> <b>תפילין</b></a><span class="version">RESEARCH PREVIEW <b>v0.8.0-alpha.1</b></span></header>
+<header><a class="wordmark" href="../../" aria-label="Back to all Torah artifacts">All artifacts <span>•</span> <b>תפילין</b></a><span class="version">RESEARCH PREVIEW <b>v0.9.0-alpha.1</b></span></header>
 <main>
 <section class="viewer" aria-label="Interactive three dimensional model">
 <div class="heading"><p class="eyebrow">FORM / MATERIAL / MEANING</p><h1>Tefillin Shel Rosh</h1><p>One housing. Four passages. A closer look.</p></div>
@@ -16,7 +16,7 @@
 <nav id="parts" aria-label="Model components"></nav>
 <article id="detail" aria-live="polite"></article>
 <section class="arrangement"><label for="order">ORDER OF THE PASSAGES</label><select id="order"><option value="rashi">Rashi</option><option value="tam">Rabbeinu Tam</option></select><p class="perspective">Facing the wearer, left → right<br><span>Wearer’s right → wearer’s left</span></p><ol id="passages"></ol><p class="small">The model’s chamber positions remain fixed as you orbit.</p></section>
-<section class="knot-setting"><label for="knot">REAR KNOT STUDY</label><select id="knot"><option value="single">Single dalet · photo-based outer folds</option><option value="double" disabled>Square / double dalet · reference needed</option></select></section>
+<section class="knot-setting"><label for="knot">REAR KNOT STUDY</label><select id="knot"><option value="single">Single dalet · photo-based outer folds</option><option value="double">Square / double dalet · diagram-based weave</option></select><div class="knot-views"><button data-camera="knot">Outer face</button><button data-camera="knotReverse">Reverse</button><button data-camera="knotUnder">Underside</button></div><p class="small">Visible folds follow supplied references. Hidden routing is schematic, not a tying guide.</p></section>
 <details class="about"><summary>About this model & sources</summary><p>An educational reconstruction, not a kosher certification or a guide to making tefillin. Dimensions and surface textures are illustrative. Cutaway and exploded views separate anatomy for study; the leather housing is joined construction.</p><p>Parchment marks are abstract texture, not sacred text. Knot routing is schematic and requires further craft review.</p><a href="https://www.mechon-mamre.org/i/en/2303.htm" target="_blank" rel="noopener">Rambam · Tefillin, chapter 3</a><a href="https://www.sefaria.org/Shulchan_Arukh%2C_Orach_Chayim.32?lang=bi&no_applink=1" target="_blank" rel="noopener">Shulchan Arukh · Orach Chayim 32</a><a href="https://www.sefaria.org/Shulchan_Arukh,_Orach_Chayim.34.1" target="_blank" rel="noopener">Shulchan Arukh · Orach Chayim 34:1</a></details>
 </aside>
 </main><script type="module" src="app.js"></script></body></html>

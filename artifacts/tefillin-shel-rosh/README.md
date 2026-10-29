@@ -1,6 +1,6 @@
 # Tefillin Shel Rosh
 
-**v0.8.0-alpha.1 — review candidate.** A standalone, interactive 3D study of head tefillin. The collection has no separate product name.
+**v0.9.0-alpha.1 — review candidate.** A standalone, interactive 3D study of head tefillin. The collection has no separate product name.
 
 ## Run locally
 
@@ -22,7 +22,7 @@ The complete rendering library is included in `vendor/`. No build, npm installat
 - Click visible model geometry or use the twelve component buttons. Small features remain accessible through these buttons on mobile.
 - In internal views, numbered callouts correspond to the four passage buttons.
 - Rashi/Rabbeinu Tam switches the identification of the passages in the fixed chamber positions. The chart always describes the front-facing viewer’s left-to-right order; camera orbit does not redefine the order.
-- Selecting the rear knot or passage moves to a dedicated close-up. The single-dalet outer folds use a privately inspected photograph; hidden interlacing remains unverified. The square/double-dalet choice is disabled pending a verified reference. This is not a knot-tying guide.
+- Selecting the rear knot or passage moves to a dedicated close-up. The single-dalet outer folds use a privately inspected photograph; hidden interlacing remains unverified. The square/double-dalet option follows the visible four-panel weave in the supplied comparison diagram. Outer face, Reverse and Underside buttons let you inspect either study. This is not a knot-tying guide.
 
 ## What is and is not modeled
 
@@ -30,7 +30,7 @@ The housing has a square footprint, four elongated hollow chambers, three groove
 
 Exploded mode lifts the **joined housing** above the passages and base. It does not break it into four detached boxes. Cutaway mode removes a front section of leather to make the interior visible. Both are explanatory diagrams, not real opening mechanisms or manufacturing steps.
 
-This is an educational reconstruction, **not kosher certification or construction guidance**. Dimensions, shin calligraphy, parchment details, knot routing, and leather aging are illustrative. The single-dalet outer silhouette is photo-informed, but its hidden crossings are schematic; the square/double-dalet option is withheld pending a verified reference. No sacred writing is reproduced. Further review by an experienced sofer is needed before stronger accuracy claims. Other order variants have not been invented or included.
+This is an educational reconstruction, **not kosher certification or construction guidance**. Dimensions, shin calligraphy, parchment details, knot routing, and leather aging are illustrative. The single-dalet outer silhouette is photo-informed, but its hidden crossings are schematic; the square/double-dalet visible weave is diagram-informed, while its reverse remains schematic. No sacred writing is reproduced. Further review by an experienced sofer is needed before stronger accuracy claims. Other order variants have not been invented or included.
 
 See `SOURCES.md`, `MODEL_NOTES.md`, `CHANGELOG.md`, and `QA.md` for evidence and limitations.
 
@@ -52,4 +52,4 @@ Set `CHROMIUM_PATH` if Chromium is not at `/usr/bin/chromium`, and `TEFILLIN_URL
 
 Three.js and its included add-ons retain their MIT license in `vendor/THREE-LICENSE.txt`. All model geometry and surface textures are procedural. No third-party manufacturing photographs are shipped.
 
-The illustrative shin outlines derive from Noto Serif Hebrew under the SIL Open Font License; see `vendor/NOTO-LICENSE.txt`. They are not a sofer-reviewed manufacturing template. The private knot photograph and transfer chunks are deliberately excluded.
+The illustrative shin outlines derive from Noto Serif Hebrew under the SIL Open Font License; see `vendor/NOTO-LICENSE.txt`. They are not a sofer-reviewed manufacturing template. The private knot references and transfer chunks are deliberately excluded.

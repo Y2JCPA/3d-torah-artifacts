@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29T08:42:08.839Z",
+  "date": "2026-10-29T13:36:40.536Z",
   "browser": "154.0.8037.57",
   "pixelRatio": 0.5,
   "checks": [
@@ -140,7 +140,19 @@
       "status": "PASS"
     },
     {
-      "name": "Verified outer-form choice remains clickable; unsupported knot option is disabled",
+      "name": "Both referenced outer forms remain clickable after repeated mode/order changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Square knot direct mesh click / assembled",
+      "status": "PASS"
+    },
+    {
+      "name": "Square knot direct mesh click / exploded",
+      "status": "PASS"
+    },
+    {
+      "name": "Square knot direct mesh click / cutaway",
       "status": "PASS"
     },
     {
@@ -181,6 +193,10 @@
     },
     {
       "name": "Actual mobile mesh tap / hair",
+      "status": "PASS"
+    },
+    {
+      "name": "Square knot actual mobile tap",
       "status": "PASS"
     },
     {

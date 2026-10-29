@@ -2,6 +2,16 @@
 
 Semantic versioning is used. Versions below 1.0 are research previews, not declarations of completeness or craft approval.
 
+## 0.9.0-alpha.1 — 2026-10-29
+
+Review candidate adding the requested square/double-dalet study.
+
+- Inspected the checksum-verified comparison diagram supplied by the user. Restored square/double-dalet selection with a compact four-panel outer weave and diagonal branches; retained the single-dalet photo-informed study.
+- Both choices share one continuous ribbon from tail to tail through the head loop and maabarta. Hidden returns remain schematic, not verified tying instructions.
+- Added Outer face, Reverse and Underside inspection views. Close inspection can zoom inside the loop without the housing blocking the reverse view.
+- Expanded actual mesh click/tap and repeated switching coverage to both knot choices.
+- Connected a local checkout of the user’s existing collection repository. No deployment or push.
+
 ## 0.8.0-alpha.1 — 2026-10-29
 
 Review candidate focused on straps and direct model interaction. Not a verified knot-tying reconstruction.

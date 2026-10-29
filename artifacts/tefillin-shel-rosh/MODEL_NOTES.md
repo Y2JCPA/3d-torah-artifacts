@@ -45,4 +45,8 @@ The hair–parchment–hair arrangement follows the Rema discussion. Inner hair 
 
 The ribbon is generated from one centerline and a continuous sequence of thick cross-sections, then partitioned by topic for picking. This establishes geometric continuity, not the correctness of concealed knot interlacing. There are exactly two free ends. The complete strand is mirrored to place the narrow overlapping fold at the outer viewer's right, matching the privately viewed photograph. No personal reference pixels are shipped.
 
-The single-dalet visible form has been compared with the photograph. The square/double-dalet study is withheld, and the hidden reverse route requires additional reference and craft review. Surface collision-free topology of the concealed folds has not been certified. This is not a tying tutorial.
+The single-dalet visible form has been compared with the photograph. In v0.8 the square/double-dalet study was withheld; v0.9 adds the supplied diagram-based outer form. Hidden reverse routing still requires additional reference and craft review. Surface collision-free topology of the concealed folds has not been certified. This is not a tying tutorial.
+
+## v0.9 square variant
+
+The square option has four overlapping face panels, fine leather edge thickness, diagonal external branches, and the same tail-to-tail continuous ribbon architecture. Its concealed return paths are an illustrative hypothesis. Geometric continuity is not evidence of correct knot topology; no craft or global collision-free certification is claimed. Outer, reverse and underside views expose the study for review.

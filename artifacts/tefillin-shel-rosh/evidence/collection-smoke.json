@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Gallery opens the integrated model",
+    "Integrated v0.9 square knot loads",
+    "All artifacts returns to the existing gallery",
+    "No browser errors"
+  ],
+  "errors": []
+}
