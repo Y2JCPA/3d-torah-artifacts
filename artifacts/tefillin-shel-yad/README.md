@@ -1,4 +1,4 @@
-# Tefillin Shel Yad — v0.2.0-alpha.2 research preview
+# Tefillin Shel Yad — v0.3.0-alpha.1 research preview
 
 One hollow chamber, one continuous rolled parchment with four identified passages, square titura, twelve sinew stitch locations, parchment wrapping, animal hair and a real strap tunnel. No chamber grooves or side shins. Nine selectable components share the temporary highlighting and source-classified lessons used by Shel Rosh.
 

@@ -46,3 +46,7 @@ Original English summaries supplied by the primary-source researcher were checke
 - https://he.wikisource.org/wiki/שולחן_ערוך_אורח_חיים_כז
 
 The `shared/lessons.js` map distinguishes explicit received law, codified construction/scribal law, halachic dispute and custom. “Codified” is not a synonym for “rabbinic.” Textual authority does not validate the model’s dimensions, hidden knot route or manufacturing details.
+
+## Titura construction
+
+[Rabbi Yirmiyohu Kaganoff, A Tefillin Shopper’s Guide — The titura](https://rabbikaganoff.com/a-tefillin-shoppers-guide/) describes the upper widening and lower flap, formed from the same hide in gassot construction, with sewing holes through the titura. The model’s front fold, rigidly withdrawn sewing segments and downward parchment display are schematic, not a repair sequence.

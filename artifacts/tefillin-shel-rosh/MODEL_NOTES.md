@@ -27,7 +27,7 @@ The scroll surfaces deliberately contain no readable passage text. Their identit
 ## Display modes
 
 - **Assembled:** opaque, closed housing; scrolls physically inside it.
-- **Exploded:** housing moves upward as one unit; upright scrolls and the base are separated vertically for study. The model is a diagram, not an instruction to detach the actual construction.
+- **Open base:** sinew release precedes the connected lower-flap opening; parchments then lower through real underside openings. Reassembly reverses this order. Housing and upper titura never separate. The displayed fold and thread release are schematic, not repair instructions.
 - **Cutaway:** one front clipping plane removes leather only. Thin section faces show where the internal chamber walls were cut. The parchment is revealed by that section, not pushed through the side wall.
 
 No mode uses transparency to make chamber boxes disappear. Highlight materials retain their clipping state. Interrupted animations always derive from one current mode and converge to its target. Camera transitions interpolate around the subject instead of crossing through it.

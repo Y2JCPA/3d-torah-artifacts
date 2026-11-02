@@ -1,3 +1,10 @@
+# v0.3.0-alpha.1 — closure animation, 2026-11-02
+
+- Housing and broad upper titura remain integral; the underside is genuinely open.
+- Sequential schematic sinew release, connected lower-flap opening and downward parchment reveal; reassembly reverses the sequence.
+- Construction explanation distinguishes the received sinew law from illustrative sewing and fold geometry.
+- Browser-tested release candidate; see QA.md for validation and limitations.
+
 # Changelog
 
 ## Local review revision — alpha.2

@@ -4,13 +4,13 @@ A growing collection of interactive educational models of Torah artifacts.
 
 ## Select an artifact
 
-- [Tefillin Shel Rosh](artifacts/tefillin-shel-rosh/) — v0.10.0-alpha.2 research preview; twelve visibly highlighted components, assembled/exploded/cutaway modes, passage-order comparison and primary-source links.
+- [Tefillin Shel Rosh](artifacts/tefillin-shel-rosh/) — v0.11.0-alpha.1 research preview; twelve visibly highlighted components, assembled/open-base/cutaway modes, passage-order comparison and primary-source links.
 
-- [Tefillin Shel Yad](artifacts/tefillin-shel-yad/) — v0.2.0-alpha.2 research preview; one chamber and one parchment, nine highlighted components, a reference-informed yud silhouette and loose binding loop. Hidden crossings remain schematic.
+- [Tefillin Shel Yad](artifacts/tefillin-shel-yad/) — v0.3.0-alpha.1 research preview; one chamber and one parchment, nine highlighted components, a reference-informed yud silhouette and loose binding loop. Hidden crossings remain schematic.
 
 ## View online
 
-The collection uses this repository’s existing GitHub Pages deployment: [open the artifact gallery](https://y2jcpa.github.io/3d-torah-artifacts/). This revision includes Shel Rosh v0.10.0-alpha.2 and Shel Yad v0.2.0-alpha.2.
+[Open the artifact gallery](https://y2jcpa.github.io/3d-torah-artifacts/). Select either tefillin model to explore the staged base-opening animation. Both models remain educational research previews.
 
 Publishing follows the existing Pages build-and-deployment workflow on `main`; `.nojekyll` keeps the vendored static modules intact. No paid hosting, build service or custom domain is required.
 

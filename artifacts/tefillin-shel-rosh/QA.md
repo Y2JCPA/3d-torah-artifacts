@@ -1,15 +1,13 @@
-# Verification — v0.10.0-alpha.2 research preview
+# Verification — v0.11.0-alpha.1 closure-animation review
 
-Actual Chromium 154 / SwiftShader testing covered desktop and touch-emulated mobile layouts.
+Tested 2026-11-02 in actual Chromium with SwiftShader rendering, desktop 1440 × 1040 and touch-emulated mobile 390 × 844. This is an educational research preview.
 
-- 51 direct mesh click/tap regression checks passed across all three modes and both knot choices, including hidden surfaces and gesture guards.
-- 16 desktop and two isolated mobile selection/source checks passed. All twelve component highlights visibly changed rendered model pixels and restored original materials without pixel differences.
-- Six focused real mouse/touch checks passed. The final alpha.2 regression passed fourteen checks across both knots, all modes, compound components and reset.
-- Gallery-to-model-and-back navigation passed on desktop and mobile. Orbit, zoom, rapid mode switches, interrupted transitions and isolated normal-motion reset were exercised.
-- No JavaScript or console errors occurred in the successful final runs. Earlier concurrent software-rendering runs timed out; suites were isolated and the animation timing was corrected before successful retesting.
+The shared closure regression passed 83 checks across both artifacts. It checks real underside openings, twelve sewing stations, upper flange/housing attachment, lower closure coverage, direct mesh clicks and touch taps, compound highlights and material restoration, all three modes, both head-knot choices, passage order, repeated toggles and reset. Normal-motion interruptions and reversals were sampled: 862 Shel Rosh states and 457 Shel Yad states. Every sampled opening followed complete sinew release; every parchment extraction followed complete flap opening. Reassembly passed those constraints in reverse.
 
-Rendered screenshots are in `evidence/alpha2/`. Raw browser-test reports and logs remain local and are excluded from the public site. Test scripts can generate new local evidence; run them sequentially with Playwright and Chromium while serving the collection root.
+A final framing and navigation suite checks keyboard activation, mobile/desktop flap projection, caption/control spacing, distinct camera presets, zoom, source links, compound base/stitch highlights and gallery return. All 28 checks passed. No browser JavaScript or console errors occurred in the successful runs.
+
+Current screenshots are under ../../review-evidence/. The older evidence/alpha2/ images and older QA scripts are retained as historical release evidence; their previous counts are not included in the current test total. Raw reports and machine logs remain outside this review package. Run the root qa-closure.cjs and qa-closure-final.cjs sequentially using Playwright and Chromium while serving the collection root.
 
 ## Limits
 
-Mobile testing uses emulation, not physical devices. Safari, Firefox, assistive-technology and qualified sofer review are not complete. Source URLs and safe link attributes were checked; not every test opened external source sites. Both knots have schematic hidden crossings and are not tying instructions. Teal is a temporary selection highlight, not the leather color. Dimensions, shin calligraphy and fine craft details remain illustrative.
+Mobile testing is emulated, not a physical device. Safari, Firefox, screen-reader and qualified sofer review remain unperformed. Source link destinations/attributes were checked, not every external page reopened by browser automation. The front fold location, rigid released thread segments and lowering of scrolls are teaching schematics, not a complete sewing route, repair procedure or construction guide. Hidden knot crossings, dimensions and craft details remain illustrative. A screenshot shows one instant; sequence claims come from sampled normal-motion tests.
