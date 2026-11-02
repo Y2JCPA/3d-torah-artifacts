@@ -1,6 +1,6 @@
 # Tefillin Shel Rosh
 
-**v0.10.0-alpha.2 — research preview.** Shared selection highlighting and received-law lessons.
+**v0.11.0-alpha.1 — research preview.** Shared selection highlighting and received-law lessons.
 
 ## Run locally
 
@@ -24,7 +24,7 @@ The overview and component cards distinguish explicit halacha leMoshe miSinai fr
 
 The housing has a square footprint, four elongated hollow chambers, three grooves, raised three/four-headed shins on the wearer’s right/left, a square layered base, twelve illustrative stitches, a rear strap tunnel, upright rolled passages, parchment wrappers and hair bindings, a head loop, and two descending lengths laid out for study.
 
-Exploded mode lifts the **joined housing** above the passages and base. It does not break it into four detached boxes. Cutaway mode removes a front section of leather to make the interior visible. Both are explanatory diagrams, not real opening mechanisms or manufacturing steps.
+Open base first releases twelve schematic sinew segments, opens the connected lower flap, then lowers the parchments through the underside for study. Housing and broad upper titura stay integral. The front fold and thread withdrawal are schematic; continuous hide is not detached. Cutaway mode removes a front section of leather to make the interior visible. Both are explanatory diagrams, not real opening mechanisms or manufacturing steps.
 
 This is an educational reconstruction, **not kosher certification or construction guidance**. Dimensions, shin calligraphy, parchment details, knot routing, and leather aging are illustrative. Both knot studies have simplified outer folds and schematic hidden crossings. No sacred writing is reproduced. Further review by an experienced sofer is needed before stronger accuracy claims. Other order variants have not been invented or included.
 

@@ -17,3 +17,7 @@ Lesson summaries were checked against primary Hebrew sources at Mechon Mamre and
 [Rabbi DovBer Pinson, Tefillin: A How-To Guide, Shluchim Office](https://www.shluchim.org/content/img/tefillinguide.pdf), printed pages 7 and 18. The actual knot and loop illustrations were inspected. They establish a compact folded collar/short return and a broad oval loosened arm loop. They are illustrations, not a complete tying sequence, and do not validate hidden crossings or all community variants.
 
 The pictured inner protective casing has a top hole; that is not the leather housing. This model shows the bare housing without that casing or hole. The reference pages are not application assets and are not redistributed.
+
+## Titura construction
+
+[Rabbi Yirmiyohu Kaganoff, A Tefillin Shopper’s Guide — The titura](https://rabbikaganoff.com/a-tefillin-shoppers-guide/) describes the upper widening and lower flap, formed from the same hide in gassot construction, with sewing holes through the titura. The model’s front fold, rigidly withdrawn sewing segments and downward parchment display are schematic, not a repair sequence.
